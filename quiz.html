@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<head>
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel= "stylesheet" href="style.css">
+  <link rel= "stylesheet" href="contact.css">
+  <script src="contact.js"></script>
+  <script src="quizform.js"></script>
+
+
+        <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+        <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+        <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+
+
+<title>Quiz</title>
+</head>
+<body>
+<div class="sidebar">
+  <a href="main.html">Home</a>
+  <a href="quiz.html">Quiz</a>
+  <a href="contact.html">Contact</a>
+</div>
+<div class="main">
+<div>
+<p class="QuizForm">Q1: Your Name and ID</p>
+<label for="Name" class="NameID">Enter your name:</label>
+<input type="edit"  class="form-control mb-2" name="12" id = "Name" >
+<label for="ID" class="NameID">Enter your ID:</label>
+<input type="number" class="form-control mb-2"  name="12" id="ID">
+<input type="checkbox" name="a" id="check" value="" size="10" required> Check the box!
+</div>
+
+<div>
+<p class="QuizForm">Q2: Inside which HTML element do we put the JavaScript (choose one)</p>
+<ul>
+<input class="answer custom-radio" type="radio" name="q2" value="0">
+<label>&lt;scripting&gt;</label>
+<br><input class="answer" type="radio" name="q2" value="0">
+<label>&lt;js&gt;</label><br>
+<input class="answer" type="radio" name="q2" value="0">
+<label>&lt;javascript&gt;</label><br>
+<input class="answer" type="radio" name="q2" value="1">
+<label id="correctString2">&lt;script&gt;</label>
+</ul>
+</div>
+
+<div>
+<p class="QuizForm">Q3: The external JavaScript file must contain the &lt;script&gt; tag (check all that apply)</p>
+<ul>
+<input class="answer" type="radio" name="q3" value="0">
+<label>True</label><br>
+<input class="answer" type="radio" name="q3" value="1">
+<label id="correctString3">False</label><br>
+<input class="answer" type="radio" name="q3" value="0">
+<label>None</label><br>
+<input class="answer" type="radio" name="q3" value="0">
+<label>Both</label>
+</ul>
+</div>
+
+<div>
+<p class="QuizForm">Q4: How do you write "Hello World" in an alert box? (select option)</p>
+<ul>
+<input class="answer" type="radio" name="q4" value="1">
+<label id="correctString4">Alert(“Hello World”);</label><br>
+<input class="answer" type="radio" name="q4" value="0">
+<label>alertBox(“Hello World”);</label><br>
+<input class="answer" type="radio" name="q4" value="0">
+<label>msg(“Hello World”);</label><br>
+<input class="answer" type="radio" name="q4" value="0">
+<label>Both</label>
+</ul>
+</div>
+
+<div class="submitter">
+<input class="quizSubmit" id="submitButton" onclick="submitQuiz()" type="submit" value="Submit" />
+</div>
+<div class="quizAnswers" id="correctAnswer1"></div>
+<div class="quizAnswers" id="correctAnswer2"></div>
+<div class="quizAnswers" id="correctAnswer3"></div>
+<div class="quizAnswers" id="correctAnswer4"></div>
+<div>
+<h2 class="quizScore" id="userScore"></h2>
+</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap.js"></script>
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+</body>

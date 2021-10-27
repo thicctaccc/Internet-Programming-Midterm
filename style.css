@@ -1,0 +1,45 @@
+.main {
+  position: absolute;
+  left: 178px;
+  top: 92px;
+  right: 0;
+  bottom: 0;
+  background-color: #f2f2f2;
+}
+.main h1, h2, h3 {
+  color: SlateBlue
+}
+.sidebar {
+  position: absolute;
+  width: 9%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: SlateBlue;
+}
+.sidebar a {
+  padding: 5px 10px 5px 20px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #ffffff;
+  display: block;
+  font-family: "Trebuchet MS", Tahoma, sans-serif;
+}
+.QuizForm {
+  font-family: "Trebuchet MS", Tahoma, sans-serif;
+  color: SlateBlue;
+  font-size: 19px;
+}
+.NameID {
+  font-family: "Trebuchet MS", Tahoma, sans-serif;
+  color: SlateBlue;
+  font-size: 20px;
+}
+.ContactForm {
+  font-family: "Trebuchet MS", Tahoma, sans-serif;
+  color: SlateBlue;
+  font-size: 19px;
+  margin: auto;
+   width: 50%;
+   padding: 10px;
+ }

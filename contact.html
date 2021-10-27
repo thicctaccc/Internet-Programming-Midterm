@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+  <head>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel= "stylesheet" href="style.css">
+    <link rel= "stylesheet" href="contact.css">
+    <script src="contact.js"></script>
+    <script src="quizform.js"></script>
+
+
+        <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+        <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+        <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+
+<title>Contact</title>
+</head>
+<body>
+<div class="sidebar">
+  <a href="main.html">Home</a>
+  <a href="quiz.html">Quiz</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+
+
+<form onsubmit="return false">
+<div class="ContactForm">
+<h1> Contact us</h1>
+<input type="text" placeholder="Enter your last name" id="lastName" minlength="10"/required>
+<br><br>
+<input type="text" placeholder="Enter your first name" id="firstName" /required>
+<br><br>
+<input type="email" placeholder="Enter your email" id="email" /required>
+<br><br>
+<input type="text" placeholder="Student ID" id="StudentID" /required>
+<br><br><span>Free Text</span>
+<br>
+<textarea id="note" rows="6"></textarea>
+<br><br>
+<button onclick="sendContact();">Send contact</button>
+</div>
+</form>
